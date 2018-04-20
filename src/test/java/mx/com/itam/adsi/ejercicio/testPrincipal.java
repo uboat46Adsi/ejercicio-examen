@@ -27,7 +27,7 @@ public class TestPrincipal {
     }
 
     @Test
-    public void isCorrectCalcTest() {
+    public void isCorrectCuentaTest() {
         LOG.info("Ejecutando la prueba");
         int[] res = new int[3];
 
