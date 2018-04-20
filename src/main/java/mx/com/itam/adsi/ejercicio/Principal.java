@@ -21,7 +21,10 @@ public class Principal{
       counter[1]++;
       counter[0]++;
     }
-
+    LOG.info("Cantidad de lineas :" + counter[0]);
+    LOG.info("Cantidad de comments :" + counter[1]);
+    LOG.info("Cantidad de exes :" + counter[2]);
+    
     return counter;
   }
 }
