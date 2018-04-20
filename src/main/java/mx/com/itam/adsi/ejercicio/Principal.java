@@ -14,7 +14,7 @@ public class Principal{
     int i = source.indexOf("//");
 
     if(i >= 1){
-      counter[1]++
+      counter[1]++;
       counter[2]++;
       counter[0]++;
     }else if(i == 0){
